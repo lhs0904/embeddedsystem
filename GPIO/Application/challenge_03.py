@@ -15,7 +15,7 @@ melody = [262, 294, 330, 349, 392, 440, 494, 523]
 keys = ["a", "s", "d", "f", "g", "h", "j", "k"]
 try:
     while True:
-        userInput = input("Note(c,d,e,f,g,a,b,c) : a,s,d,f,g,h,j,k\n")
+        userInput = input("Note(C,D,E,F,G,A,B,C) : a,s,d,f,g,h,j,k\n")
         print(userInput)
 
         for note in range(0, len(keys)):
