@@ -1,7 +1,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-path = '/home/pi/embeddedsystem/opencv/data'
+path = '/home/teacher/embeddedsystem/opencv/data'
 imgBGR1 = cv2.imread(path + 'jenny.jpg')
 imgBGR2 = cv2.imread(path + 'apple.jpg')
 imgBGR3 = cv2.imread(path + 'banana.jpg')
@@ -32,5 +32,5 @@ ax[1][1].axis('off')
 ax[1][1].imshow(imgRGB4, aspect = 'auto')
 
 plt.subplots_adjust(left = 0, bottom=0, right = 1, top=1, wspace=0.05, hspace=0.05)
-plt.savefig('/home/pi/embeddedsystem/opencv/data/img_06.png', bbox_inches = 'tight')
+plt.savefig('/home/teacher/embeddedsystem/opencv/data/img_06.png', bbox_inches = 'tight')
 plt.show()
