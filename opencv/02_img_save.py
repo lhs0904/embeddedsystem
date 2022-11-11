@@ -1,6 +1,6 @@
 import cv2
 
-imageFile = 'jenny.jpg'
+imageFile = 'data/jenny.jpg'
 img = cv2.imread(imageFile) # cv2.imread(imageFile, cv2.IMREAD_COLOR)
 cv2.imwrite('jenny.bmp', img) #jenny.bmp로 저장
 cv2.imwrite('jenny.png', img) #jenny.png로 저장
